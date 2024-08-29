@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+
+}
+body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 100vh;
+    background-image: url('../images/sky.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+header h1{
+    color: #f91010;
+    margin: 20px auto;
+    padding: 20px 20px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 60px;
+    animation-name: top;
+    animation-duration: 2s;
+    animation-timing-function:ease;
+    transition: 3s ease;
+   
+}
+@keyframes top {
+    0%{
+        transform: translatex(-900px);
+    }
+    100%{
+        transform: translate(0px);
+    }
+    
+}
+.main-container{
+    background-color: transparent;
+     width: 950px;
+     overflow: hidden;
+
+
+}
+.sub-content{
+    display: flex;
+    flex-direction: column;
+}
+.top-head h2{
+        margin-bottom: 20px;
+        padding-left: 20px;
+        color:yellow;
+        font-size: 30px;
+        animation-name: left;
+        animation-duration: 2.8s;
+        animation-timing-function:ease;
+        transition: 3s ease;
+       
+    }
+    @keyframes left {
+        0%{
+            transform: translatex(-900px);
+        }
+        100%{
+            transform: translate(0px);
+        }
+}
+.content {
+ display:flex ;
+ width:100%;
+}
+.content .para{
+    width:50%;
+}
+.content p{
+    margin: 20px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 30px;
+    font-size: 25px;
+    width: 100%;
+    color: white;
+    animation-name: left;
+    animation-duration: 2.8s;
+    animation-timing-function:ease;
+    transition: 3s ease;
+   
+}
+@keyframes left {
+    0%{
+        transform: translatex(-900px);
+    }
+    100%{
+        transform: translate(0px);
+    }
+}
+.img-left{
+    text-align: center;
+    width: 50%;
+    
+}
+.img-left img{
+    height: 200px;
+    padding: 10px;
+    animation: rotate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    
+}
+
+@keyframes rotate{
+    0%{
+        transform: translatex(400px);
+    }
+    100%{
+        transform: translate(0px);
+    }
+}
+.btn button{
+    height: 50px;
+    width: 120px;
+    margin:7px 100px;
+    border-radius: 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+    transition: 1.2s ease-in-out;
+}
+.btn a{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+    padding: 10px;
+}
+.btn button:hover{
+    background-color: #00FF00;
+    cursor: pointer;
+    box-shadow: 2px 2px 15px #00FF00,2px 2px 15px #00FF00,2px 2px 15px #00FF00;
+}
+button:hover a{
+    color: black;
+    font-weight: 600;
+}

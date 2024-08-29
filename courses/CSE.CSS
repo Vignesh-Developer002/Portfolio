@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: aliceblue;
+    height: 100vh;
+    font-family: poppins;
+    
+}
+header{
+    height: 150px;
+    background-color: #EEEEEE;
+    border-radius: 20px;
+    text-align: center;
+    margin:20px 20px;
+    padding: 10px;
+    box-shadow: 2px 2px 10px black;
+}
+header h1{
+    padding: 40px;
+    font-weight: 900;
+    font-size: 50px;
+    color: #114232;
+    text-shadow: 2px 2px yellow, 2px 2px yellow;
+}
+.main-container{
+    margin: 20px;
+}
+.same{
+    background-color: #F8F4E1;
+    margin: 20px 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px black;
+}
+.ethical{
+    display: flex;
+}
+.left-side{
+    width: 80%;
+    margin-right: 40px;
+}
+.right-side{
+    width: 30%;
+}
+.right-side img{
+    width: 300px;
+    margin-top: 100px;
+    border-radius: 20px;
+    border: 3px solid gold;
+    transition: all 1.2s ease;
+}
+.right-side img:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 10px gold;
+}
+.same h2{
+    padding: 20px;
+    color: #01204E;
+    font-family: 40px;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-left: 30px;
+}
+.same p{
+    padding: 30px;
+    text-indent: 40px;
+    line-height: 40px;
+    font-size: 21px;
+    color: #000000;
+    text-align: justify;
+}    
+
+.same h3{
+    font-size: 25px;
+    padding: 20px;
+    color: white;
+    background-color:#7E6363;
+    text-shadow: 2px 2px black, 2px 2px black, 2px 2px black;
+    width: 90%;
+    margin: 15px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px grey;
+}
+.ai{
+    display: flex;
+
+}
+.ai .left-side-2{
+    width: 20%;
+}
+.left-side-2 img{
+    width: 100%;
+    margin-top: 300px;
+    margin-left: 50px;
+    border-radius: 20px;
+    border: 3px solid gold;
+    transition: all 1.2s ease;
+    
+}
+.left-side-2 img:hover{
+    transform: scale(1.2);
+    box-shadow: 2px 2px 10px gold;
+}
+.ai .right-side-2{
+    width: 70%;
+    margin-left:100px;
+}

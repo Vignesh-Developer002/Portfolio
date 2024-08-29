@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    /*background-image: radial-gradient( circle 1292px at -13.6% 51.7%,  rgba(0,56,68,1) 0%, rgba(163,217,185,1) 51.5%, rgba(255,252,247,1) 88.6% );*/
+   
+}
+header{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   /* background: linear-gradient(#616161,#E6E7E8);*/
+   background-color: #050505cb;
+    margin: 20px;
+    border-radius: 20px;
+    border: 5px solid gold;
+
+}
+
+header a{
+    text-decoration: none;
+    padding: 20px;
+    color:green;
+    font-size: 20px;
+    font-weight:700
+}
+
+header button{
+   box-shadow: 2px 2px 15px gray, 2px 2px 10px gray;
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    width: 100px;
+
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    color:  #E30B5C;
+    font-size: 50px;
+    font-weight: 900;
+    text-shadow: 2px 2px white;
+}
+.heading-2{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+    font-size: 25px;
+
+}
+h2{
+    color:  #120A8F;
+    text-shadow: 2px 2px white;
+}
+img{
+    height: 200px;
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+.main-container{
+    margin: 20px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #fff;
+    border: 5px solid gold;
+    border-radius: 20px;
+    /*background-image: linear-gradient( 109.6deg,  rgba(15,2,2,1) 11.2%, rgba(36,163,190,1) 91.1% );*/
+    background-color: #050505;
+
+}
+.container p{
+    text-align:center;
+    font-size: 25px;
+    font-weight: 900;
+    color: #D52941;
+
+}
+.main-container .container{
+    height: 260px;
+    width: 270px;
+    margin: 50px 40px;
+    box-shadow: 2px 2px 10px white;
+    border-radius: 20px;
+    background-color:transparent;
+    opacity:.3;
+    transform: perspective(1900px) rotatey(40deg);
+    transition: 1s ease;
+    
+}
+.main-container .container:hover{
+    transform: scale(1.2);
+    opacity: 1;
+    box-shadow: 2px 2px 15px gold;
+    cursor: pointer;
+}
